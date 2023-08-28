@@ -5,11 +5,11 @@
     <template #image>
       <img class="_border-radius:50%!" src="https://placehold.co/40x40" alt="Media Image" />
     </template>
-    <h3 class="_margin:0">Media Title</h3>
+    <h6 class="_margin:0">Media Title</h6>
     <p class="_margin:0">
       For you
     </p>
-    <div>
+    <div class="_margin-top:2 icons">
 
       <PhosphorIconChatCircle />
 
@@ -28,10 +28,27 @@
   </IMedia>
 </template>
 <style lang="scss" scoped>
-svg {
+div svg:first-child {
+  margin-right: 2rem;
+}
+
+div svg:not(:first-child) {
   margin-block: .2rem;
-  margin-inline: 1rem;
+  margin-inline: 3rem;
+}
+
+svg {
   border: none;
   background-color: #fff;
+}
+
+@media screen and (max-width:568px) {
+  div svg:first-child {
+    margin-right: 1.2rem;
+  }
+
+  div svg:not(:first-child) {
+    margin-inline: 1.9rem;
+  }
 }
 </style>
