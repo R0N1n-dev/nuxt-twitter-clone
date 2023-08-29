@@ -1,6 +1,6 @@
 <template>
   <ILayout vertical>
-    <ILayoutAside>
+    <ILayoutAside class="_sm:visible!">
       <SidebarIcons />
     </ILayoutAside>
     <ILayout>
@@ -8,7 +8,9 @@
       <ILayoutContent>
         <slot />
       </ILayoutContent>
-      <ILayoutFooter> Footer </ILayoutFooter>
+      <ILayoutFooter class="_sm:hidden _position:fixed-bottom! _border-top! _padding:0.5">
+        <FooterNav />
+      </ILayoutFooter>
     </ILayout>
   </ILayout>
 </template>

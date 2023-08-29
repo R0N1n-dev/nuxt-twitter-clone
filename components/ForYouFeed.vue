@@ -11,7 +11,7 @@
     </p>
     <div class="_margin-top:2 icons">
 
-      <PhosphorIconChatCircle />
+      <PhosphorIconChatCircle class="chat" />
 
 
       <PhosphorIconArrowsClockwise />
@@ -42,7 +42,7 @@ svg {
   background-color: #fff;
 }
 
-@media screen and (max-width:568px) {
+@media screen and (max-width:575px) {
   div svg:first-child {
     margin-right: 1.2rem;
   }
@@ -50,5 +50,13 @@ svg {
   div svg:not(:first-child) {
     margin-inline: 1.9rem;
   }
+}
+
+.chat:hover {
+  background-color: lightblue;
+  color: rgb(35, 125, 155);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
 }
 </style>
