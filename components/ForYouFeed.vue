@@ -9,7 +9,7 @@
     <p class="_margin:0">
       For you
     </p>
-    <div class="_margin-top:2 icons">
+    <div class="_margin-top:2 _display:flex! _justify-content:space-between! icons">
 
       <PhosphorIconChatCircle class="chat" />
 
@@ -34,7 +34,7 @@ div svg:first-child {
 
 div svg:not(:first-child) {
   margin-block: .2rem;
-  margin-inline: 3rem;
+  margin-inline: 2.8rem;
 }
 
 svg {
@@ -48,7 +48,7 @@ svg {
   }
 
   div svg:not(:first-child) {
-    margin-inline: 1.9rem;
+    margin-inline: 2.3rem;
   }
 }
 

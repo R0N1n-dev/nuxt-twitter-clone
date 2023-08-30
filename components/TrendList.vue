@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <IListGroup>
+  <IListGroup class="_border:0! _background:light-tint-50!">
     <IListGroupItem>
       <h4>List Group Heading</h4>
       <p class="_margin:0">

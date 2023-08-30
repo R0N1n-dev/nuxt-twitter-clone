@@ -3,7 +3,7 @@
 <template>
   <IContainer>
     <SearchInput />
-    <SubscribeCard />
+    <SubscribeCard class="_margin-y:1" />
     <TrendList />
   </IContainer>
 </template>

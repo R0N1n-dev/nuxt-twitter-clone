@@ -1,11 +1,13 @@
-<script setup></script>
+<script setup>
+const router = useRouter()
+</script>
 
 <template>
   <div class="_display:flex! _justify-content:space-around!">
-    <IButton circle to="/">
+    <IButton circle @click="router.push({ path: '/' })">
       <PhosphorIconHouseLine />
     </IButton>
-    <IButton circle to="/about">
+    <IButton circle @click="router.push({ path: '/about' })">
       <PhosphorIconMagnifyingGlass />
     </IButton>
     <IButton circle>
